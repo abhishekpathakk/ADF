@@ -1,0 +1,9 @@
+{
+	"name": "AzureADFGIT",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c08ffc41-71a2-429b-a364-1415d0929f49",
+		"tenantId": "b1f920d7-67f2-44ed-9f5d-68afaca60d2e"
+	}
+}
