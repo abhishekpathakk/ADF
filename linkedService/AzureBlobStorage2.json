@@ -1,0 +1,22 @@
+{
+	"name": "AzureBlobStorage2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault4",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Gen2",
+				"secretVersion": "4c8d164f3d3d4b8aa3feae2f81700586"
+			}
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
