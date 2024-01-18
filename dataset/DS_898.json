@@ -1,0 +1,32 @@
+{
+	"name": "DS_898",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Customers.csv",
+				"container": "tyy"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "String"
+			},
+			{
+				"name": "FullName",
+				"type": "String"
+			}
+		]
+	}
+}
